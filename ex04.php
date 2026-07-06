@@ -1,0 +1,9 @@
+<?php
+
+Function gerarSenhas(){
+
+
+
+}
+
+?>
