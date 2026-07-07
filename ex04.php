@@ -2,7 +2,7 @@
 
 Function gerarSenhas($quantidade){
 
-    $caracteres = 'qwertyuiopasdfghjklçzxcvbnmQWERTYUIOPASDFGHJKLÇZXCVBNM0123456789!@#$%^&*()-_=+[]{}<>?/|'
+    $caracteres = 'qwertyuiopasdfghjklçzxcvbnmQWERTYUIOPASDFGHJKLÇZXCVBNM0123456789!@#$%^&*()-_=+[]{}<>?/|';
     $tamanho = strlen($caracteres);
 
     for ($i = 0; $i < $quantidade; $i++){
