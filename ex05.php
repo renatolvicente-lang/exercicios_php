@@ -21,7 +21,7 @@ $resultado = analisarTexto($textoUsuario);
 echo $textoUsuario . " = Seu texto"."<br>";
 echo $resultado["caracteres"] ." = Quantidade de caracteres" ."<br>";
 echo $resultado["vogais"] ." = Quantidade de vogais" ."<br>";
-echo $resultado["consoantes"] ." = Quantidade de consoantes" ."<br>";
+echo $resultado["consoante"] ." = Quantidade de consoantes" ."<br>";
 echo $resultado["palavras"] ." = Quantidade de palavras" ."<br>";
 
 
