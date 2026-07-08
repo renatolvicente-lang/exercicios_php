@@ -14,7 +14,7 @@ function numPrefeito($numero){
     $somaDivisores = 0;
 
     for($i = 0; $i < $numero; $i++){
-        if($numero % i === 0)
+        if($numero % $i === 0)
             $somaDivisores += $i;
     }
 
