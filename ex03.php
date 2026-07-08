@@ -1,7 +1,7 @@
 <?php
 
     function mascararCPF($cpf){
-        $cpf = preg_replace("/\D/","", $cpf); // garante que tenha 11 caracteres
+        $cpf = preg_replace("/\D/","*", $cpf); // garante que tenha 11 caracteres
 
         $cpfMascarado = substr_replace($cpf, "***.***.*", 0, 7);// substitui os caracteres por * 
         
