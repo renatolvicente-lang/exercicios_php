@@ -13,6 +13,5 @@ Function gerarSenhas($quantidade){
     return $senha;
 }
 
+echo gerarSenhas(255);
 ?>
-
-echo gerarSenhas(12);
