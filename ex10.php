@@ -1,13 +1,13 @@
 <?php
 
 function calcularMedia($notas){ 
-    foreach($notas  as $nota){
+    foreach($notas  as $nota){//percorre o array e soma todos os valores
         $soma += $nota;
     }
     $media = $soma /3;
 
-    $maior = max($notas);
-    $menor = min($notas);
+    $maior = max($notas);//pega o maior valor do array
+    $menor = min($notas);// pega o menor valor do array
 
     if($media >= 7){
       $resultadoFinal = 'aprovado';
