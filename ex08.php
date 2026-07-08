@@ -12,7 +12,7 @@ $nomesUsuario = "Banana,Maçã,Pera";
 
 $resultado = ordenarNomes($nomesUsuario);
 
-print_r($resultado);
+echo implode(",",$resultado);
 
 
 
